@@ -1,0 +1,180 @@
+.navbar{
+position: sticky;
+top: 0;
+z-index: 5;
+}
+.header-bar{
+    background-color: teal;
+}
+.contact-info{
+    font-size: 15px;
+    padding-left: 20%;
+    position: relative;
+    top: 20%;
+    color: white;
+}
+.social-icons{
+    font-size: 22px;
+    color:whitesmoke;
+    padding-left: 3%;
+    position: relative;
+    top: 12%;
+}
+.social-icons:hover{
+    color: black;
+    border: 1px solid pink;
+    padding-right: 3%;
+    background-color: pink;
+    border-radius: 5px;  
+}
+.navbar-brand img{
+    width: 40%;
+    height: 40px;
+    border-radius: 100%;
+}
+.navbar-brand strong{
+    text-shadow: 2px 2px pink;
+    color: brown;
+    font-style: italic;
+    position: relative;
+    top: 12px;
+    right: 9px;
+    letter-spacing: 2px;
+}
+.nav-link{
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.7s ease;
+    
+  }
+
+  .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:palevioletred; 
+    transition: width 0.5s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color:blue; 
+  }
+
+  .navbar-nav .nav-link:hover::before {
+    width: 100%;
+  }
+#navbarNav{
+   position: relative;
+   top: 15px;
+   left: 13%;
+}
+#navbarNav a{
+ padding-left: 30px;
+}
+.btn{
+    position: relative;
+    top:8px ;
+}
+.btn:hover{
+    color: white;
+}
+.showroomimg{
+    box-shadow: 0 0 5px black;
+}
+.carousel-item img{
+    height: 500px;
+}
+.carousel-caption .headinglabel{
+    width: 350px;
+    position: relative;
+    top:-100px;
+    left: 450px;
+    letter-spacing: 2px;
+    border-left: 4px solid yellow;
+    font-style: italic;
+}
+@media screen and (max-width:768px) {
+    .carousel-item img{
+        height: 200px;
+    }
+    .carousel-caption .headinglabel{
+        width: 300px;
+        position: relative;
+       top:50px;
+        left: 300px;
+        letter-spacing: 2px;
+        border-left: 4px solid yellow;
+    }
+}
+.banglescarousel{
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.captionkalyan{
+    color:black;
+    text-shadow: 1px 1px gray;
+}
+.content{
+    line-height: 27px;
+}
+.ourgallary{
+    background: linear-gradient(to right, #33ccff 43%, #000099 81%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gallaryimg a img{
+   width: 100%;
+   height: 182px;
+}
+.gallaryimg a img:hover{
+    border: 2px solid goldenrod;
+}
+.morebtn{
+    background: linear-gradient(to right, #33ccff 43%, #ff66ff 81%);
+    
+}
+.morebtn:hover{
+    color: black;
+}
+.shopnow{
+    background-color: grey;
+}
+.shopnow h1{
+    text-shadow: 2px 2px black;
+}
+.shopnow .card {
+margin-left: 30px;
+}
+.shopnow .card img{
+    width:109%;
+    position: relative;
+    right: 13px;
+}
+@media  (max-width:425px) {
+    .shopnow .card {
+        margin-right: 20px;
+        width: 100%;
+        }
+}
+.footerstyle a{
+  text-decoration: none;
+  color: white;
+}
+.footerstyle a:hover{
+    text-decoration: none;
+    color: pink;
+  }
+  .footerstyle{
+   opacity: 1;
+  }
+  .social-i{
+    font-size: 30px;
+  }
+
